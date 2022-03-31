@@ -8,14 +8,12 @@
   border: 1px solid black;
   margin: 0 7.5px 15px;
   overflow: hidden;
+  cursor: pointer;
 
   &:hover {
-    cursor: pointer;
-
     & .background-image {
       transform: scale(1.1);
     }
-
     & .content {
       opacity: 0.9;
     }
